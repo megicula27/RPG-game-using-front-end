@@ -1,0 +1,157 @@
+body{
+    color: white;
+    background-color: #242424;
+    
+    
+}
+
+                                        /* Wrapper */
+.wrapper{
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "interface arena enemy"
+    "action action action";
+}
+
+
+                                        /* Header */
+
+.header{
+    grid-area: header;
+    text-align: center;  
+}
+.header h2{
+    font-size: 3.5vw;
+    color: red;
+    width: 40vw;
+    margin: 0px auto;
+    padding: 20px 0px 10px 0px;
+    border-bottom: 2px solid red;
+}
+
+.header p{
+    font-size: 2.5vw;
+    color: white;
+    padding: 20px 0px; 
+}
+div a  {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+                                            /* Interface */
+
+.interface{
+
+    grid-area: interface;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.interface h3{
+    color : red; 
+    font-size : 3vw; 
+    margin : 10px auto; 
+    padding-bottom: 10px;
+    border-bottom : 2px solid red; 
+    width : 20vw;
+}
+
+.container{
+    /* background-color: green; */
+    margin: 0 auto;
+    width: 25vw;
+}
+
+.interface p{
+
+    padding: 5px;
+}
+
+.interface a{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0px 200px;
+}
+.interface img{
+    width: 40vw;
+    margin:0px 30px 30px 30px;
+    padding: 10px 0px;
+}
+.interface a div h3{
+    color: red;
+    font-size: 3vw;
+    width: 20vw;
+    margin: 0 auto;
+    border-bottom: 2px solid rgb(255, 0, 0);
+}
+.interface a div p{
+    height: 200px;
+    padding: 70px 20px 0px 40px;
+    line-height: 25px;
+    font-size: 1.2vw;
+}
+
+
+                                         /* Action */
+
+.action{
+    grid-area: action;
+    padding: 10px;
+    text-align: center;
+    margin: 20px auto;
+}
+.action a{
+    color: red;
+    padding: 5px;
+    border: 2px solid red;
+    width: 50vw;
+    
+}
+
+                                            /* Arena */
+
+.arena{
+
+    /* position: absolute; */
+    grid-area: arena;
+    /* width: 45vw; */
+    text-align: center;
+}
+.arena-img{
+    /* position: relative;
+    left: 500px; */
+    width: 50vw;
+}
+.arena-img2{
+    /* position: relative;
+    left: 500px; */
+    width: 30vw;
+}
+
+                                            /* Enemy */
+
+.enemy{
+
+    grid-area: enemy;
+    text-align: center;
+}
+.enemy div h3{
+    color: red;
+    font-size: 3vw;
+    width: 20vw;
+    margin: 25px auto;
+    border-bottom: 2px solid rgb(255, 0, 0);
+}
+.enemy div p{
+    
+    line-height: 25px;
+    font-size: 16.5px;
+}
+.enemy img{
+    width: 23vw;    
+}

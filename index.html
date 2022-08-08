@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MTG</title>
+    <script src="/gamemanager.js"></script>
+    <script src="/enemy.js"></script>
+    <script src="/hero.js"></script>
+    <link rel="stylesheet" href="/gamestyle.css">
+    <link rel="stylesheet" href="/reset.css">
+</head>
+
+<body>
+<div class="wrapper">
+    <div class="header">
+
+        <h2>Magic: The Gathering's lore</h2>
+        <p>Choose your Hero!</p>
+
+
+    </div>
+    <div class="interface">
+        <a href="#" onclick="GameManager.SetGameStart('Urza')">
+            <img src="/heroes/urza.jpg" alt="Urza">
+            <div>
+                <h3>Urza</h3>
+                <p>Urza is a cunning, scheming, but just jerk who might very well be a villain with good intentions.
+                    However, he did destroy Phyrexia and Yawgmoth, which solidifies his anti-hero status</p>
+            </div>
+        </a>
+        <a href="#" onclick="GameManager.SetGameStart('Tefari')">
+            <img src="/heroes/tefari.jpg" alt="Tefari">
+
+            <div>
+                <h3>Tefari</h3>
+                <p>Teferi is one of the few characters from the earlier years of Magic to still be relevant within the
+                    game's lore. As a time mage, Teferi is a notable and powerful theme that can cohesively tie a series
+                    of spells together.</p>
+            </div>
+        </a>
+        <a href="#" onclick="GameManager.SetGameStart('Karn')">
+            <img src="/heroes/karn.jpg" alt="Karn">
+            <div>
+                <h3>Karn</h3>
+                <p>While many players primarily associated Karn with the strength of the card, Karn Liberated, he is one
+                    of the few characters that bridge the earlier years of Magic lore with the current era. First
+                    appearing all the way back in Urza's Saga in 1998 as Karn, Silver Golem, Karn has served prominent
+                    positions in both the Scars of Mirrodin Block as well as Dominaria.</p>
+            </div>
+        </a>
+        <a href="#" onclick="GameManager.SetGameStart('Sorin Markov')">
+            <img src="/heroes/sorin markov.jpg" alt="Sorin Markov">
+            <div>
+                <h3>Sorin Markov</h3>
+                <p>Few Planeswalkers are as closely tied to their home plane as the vampiric Sorin Markov is to the
+                    plane of Innistrad. As the immortal creator of the iconic Avacyn, Sorin is both inegrally connected
+                    to Innistrad's history as well as the history of the Eldrazi.</p>
+            </div>
+        </a>
+        <a href="#" onclick="GameManager.SetGameStart('Nissa Revane')">
+            <img src="/heroes/nissa revane.jpg" alt="Nissa Revane">
+            <div>
+                <h3>Nissa Revane</h3>
+                <p>Perhaps one of the safest guesses of a character to receive a Signature Spellbook, Nissa Revane is a
+                    prominent core figure in Magic's lore and is one of the characters most closesly affiliated with
+                    green mana.</p>
+            </div>
+        </a>
+    </div>
+    <div class="action">
+
+    </div>
+    <div class="arena">
+
+    </div>
+    <div class="enemy">
+
+    </div>
+</div>
+</body>
+
+</html>
